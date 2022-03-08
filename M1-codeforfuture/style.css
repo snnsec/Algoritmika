@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    display: block;
+    align-items: baseline;
+    gap: 40%;
+    background-image: url(img/bodyimg/Group\ 7838.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 280px;
+}
+
+nav {
+    display: flex;
+    gap: 55%;
+}
+
+.leftlogo {
+    justify-content: flex-start;
+}
+
+.rightinfo {
+    display: flex;
+    gap: 40px;
+}
+
+.infotext {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.bigtext {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #30FFCD;
+}
+
+.littext {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.medtext {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: dashed;
+}
+
+.headerblock {
+    margin: 10%;
+    width: 45%;
+}
+
+.h2block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.h2btext {
+    font-weight: 700;
+    font-size: 47px;
+    color: #382459;
+    font-family: 'Oswald', sans-serif;
+}
+
+.mainbut {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #FF1DC0;
+    border: 1px solid #FF1DC0;
+    width: 224px;
+    height: 48px;
+    align-items: center;
+    margin-top: 60px;
+    border-radius: 45px;
+}
+
+.mainsecondblock {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    gap: 20%
+}
+
+.text1p {
+    color: #382459;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.text2p {
+    color: #382459;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.main3block {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #382459;
+}
+
+.textblock {
+    margin-left: 14%;
+    margin-right: 0%;
+    width: 30%;
+    gap: 10%
+}
+
+.text1m3 {
+    color: #30FFCD;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.text2m3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 70%;
+}
+
+.text3m3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+.m4bdtext {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 47px;
+    color: #382459;
+}
+
+.texthead {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: #382459;
+}
+
+.textmain {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    width: 70%;
+    font-size: 16px;
+    color: #382459;
+}
+
+.main4block {
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.text4block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main5block {
+    background-color: #382459;
+    display: flex;
+    padding-bottom: 50px;
+    position: relative;
+    z-index: -3;
+}
+
+.m5btext {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 5%;
+    gap: 5%;
+}
+
+.h5text {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #30FFCD;
+}
+
+.p5text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 60%;
+}
+
+.p51text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 60%;
+}
+
+.but5class {
+    color: #30FFCD;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    width: 192px;
+    height: 48px;
+    border: 2px solid #30FFCD;
+    border-radius: 48px;
+    background-color: #382459;
+}
+
+.but51class {
+    color: #30FFCD;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    width: 192px;
+    height: 48px;
+    border: 2px solid #30FFCD;
+    border-radius: 48px;
+    background-color: #382459;
+    margin-top: 17px;
+}
+
+.rf6block {
+    margin-left: 10%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boldheadtxt {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 47px;
+    color: #382459;
+}
+
+.notboldmaintxt {
+    color: #382459;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    width: 60%;
+    font-size: 16px;
+}
+
+.rightblock {
+    position: absolute;
+    left: 65%;
+}
+
+.m7bp1 {
+    padding-top: 70px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 41px;
+    width: 50%;
+    color: #30FFCD;
+}
+
+.main7block {
+    display: flex;
+    background-color: #382459;
+}
+
+.m7bp2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 50%;
+    padding-bottom: 25px;
+}
+
+.m7bpbut {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    width: 224px;
+    height: 48px;
+    background-color: #FF1DC0;
+    color: #FFFFFF;
+    border: 1px solid #FF1DC0;
+    border-radius: 48px;
+}
+
+.main6block {
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+.rightblock {
+    z-index: -1;
+}
+
+.mn7bclass {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+}
+
+.textfout1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #382459;
+}
+
+.textfout2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #382459;
+}
+
+.foutermainblock {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30%;
+}
+
+.imageclass {
+    position: absolute;
+    left: 85%;
+    top: 1765px;
+}
+
+.secondtextblock {
+    padding-left: 10%;
+}
+
+@media (max-width:800px) {
+    .imageclass {
+        top: 2030px;
+    }
+    .p51text {
+        padding-top: 60px;
+    }
+    .but51class {
+        margin-top: 34px;
+    }
+    .main6block .rightblock {
+        display: none;
+    }
+    .mn7bclass {
+        display: flex;
+        flex-direction: column;
+    }
+    .mn7bclass .leftblock {
+        position: relative;
+        left: -14x;
+        top: 96px;
+    }
+    .m7bpbut {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:600px) {
+    .imageclass {
+        top: 2368px;
+    }
+    .but51class {
+        margi-top: 75px;
+    }
+}
+
+@media (max-width:320px) {
+    .mainblock {
+        flex-direction: column;
+    }
+}
