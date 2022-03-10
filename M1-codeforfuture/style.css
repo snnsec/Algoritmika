@@ -9,7 +9,6 @@ body {
 header {
     display: block;
     align-items: baseline;
-    gap: 40%;
     background-image: url(img/bodyimg/Group\ 7838.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,24 +16,43 @@ header {
 }
 
 nav {
+    padding-right: 20%;
+    padding-left: 14%;
+    font-family: "Montserrat", sans-serif;
     display: flex;
-    gap: 55%;
+    justify-content: space-around;
+    gap: 15%;
+    align-items: center;
 }
 
-.leftlogo {
-    justify-content: flex-start;
-}
-
-.rightinfo {
+.nav-head {
     display: flex;
-    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 35px;
 }
 
-.infotext {
-    font-family: 'Montserrat', sans-serif;
+.nav-head .adnsu {
+    width: 165px;
+    height: 30px;
+}
+
+.nav-text {
+    display: flex;
+    gap: 60px;
+    color: #fff;
+}
+
+.n-t-p1 {
+    font-weight: 800;
+}
+
+.n-t-p2 {
     font-weight: 600;
-    font-size: 16px;
-    color: #FFFFFF;
+}
+
+.hiddennav {
+    display: none;
 }
 
 .bigtext {
@@ -55,7 +73,9 @@ nav {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 18px;
+    border-bottom: 2px dashed yellow;
     color: #FFFFFF;
+    width: fit-content;
     text-decoration: dashed;
 }
 
@@ -76,17 +96,20 @@ nav {
     font-family: 'Oswald', sans-serif;
 }
 
+.mainbut2 {
+    display: none;
+}
+
 .mainbut {
+    width: 224px;
+    height: 48px;
+    margin-top: 60px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 15px;
     color: #FFFFFF;
     background-color: #FF1DC0;
     border: 1px solid #FF1DC0;
-    width: 224px;
-    height: 48px;
-    align-items: center;
-    margin-top: 60px;
     border-radius: 45px;
 }
 
@@ -112,6 +135,7 @@ nav {
 }
 
 .main3block {
+    position: relative;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -187,12 +211,21 @@ nav {
     z-index: -3;
 }
 
+.main5block .mobile5mainblock {
+    display: none;
+}
+
 .m5btext {
     display: flex;
-    flex-direction: row;
     margin-left: 10%;
     margin-right: 5%;
     gap: 5%;
+}
+
+.m5btext .text5block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .h5text {
@@ -230,19 +263,6 @@ nav {
     background-color: #382459;
 }
 
-.but51class {
-    color: #30FFCD;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    width: 192px;
-    height: 48px;
-    border: 2px solid #30FFCD;
-    border-radius: 48px;
-    background-color: #382459;
-    margin-top: 17px;
-}
-
 .rf6block {
     margin-left: 10%;
     margin-right: 5%;
@@ -268,7 +288,7 @@ nav {
 
 .rightblock {
     position: absolute;
-    left: 65%;
+    left: 53%;
 }
 
 .m7bp1 {
@@ -305,6 +325,7 @@ nav {
     color: #FFFFFF;
     border: 1px solid #FF1DC0;
     border-radius: 48px;
+    margin-bottom: 20px;
 }
 
 .main6block {
@@ -343,25 +364,88 @@ nav {
 }
 
 .imageclass {
+    position: relative;
+}
+
+.imageclass img {
     position: absolute;
-    left: 85%;
-    top: 1765px;
+    bottom: 5%;
+    right: 7%;
+    margin-bottom: -17px;
 }
 
 .secondtextblock {
     padding-left: 10%;
 }
 
+footer {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer .footer-block {
+    color: #382459;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+    gap: 110px;
+}
+
+footer .f-b-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+footer .f-b-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.f-b-2 .p-1 {
+    font-weight: 900;
+}
+
+.f-b-2 .p-2 {
+    font-weight: 600;
+}
+
+footer .f-b-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+@media (max-width:880px) {
+    .hiddennav {
+        margin-left: 10%;
+        display: block;
+    }
+    .hnimgclass {
+        display: flex;
+        gap: 5%;
+    }
+    .imghid1 {
+        height: 40px;
+        width: 80px;
+    }
+    nav {
+        gap: 3%;
+    }
+    .logo-none,
+    .adnsu {
+        display: none;
+    }
+    .logo-1 {
+        padding-top: 25px;
+    }
+}
+
 @media (max-width:800px) {
-    .imageclass {
-        top: 2030px;
-    }
-    .p51text {
-        padding-top: 60px;
-    }
-    .but51class {
-        margin-top: 34px;
-    }
     .main6block .rightblock {
         display: none;
     }
@@ -377,19 +461,233 @@ nav {
     .m7bpbut {
         margin-bottom: 20px;
     }
+    footer .footer-block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 60px;
+    }
+    .footer-block .f-b-1 {
+        flex-direction: row;
+    }
 }
 
 @media (max-width:600px) {
-    .imageclass {
-        top: 2368px;
+    .m4bdtext {
+        font-size: 27px;
+        font-weight: 700;
     }
-    .but51class {
-        margi-top: 75px;
+    .texthead {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .textmain {
+        font-size: 13px;
+        font-weight: 500;
     }
 }
 
-@media (max-width:320px) {
+@media (max-width:400px) {
+    .hiddennav {
+        display: block;
+    }
+    .hnimgclass {
+        display: flex;
+        gap: 5%;
+    }
+    .imghid1 {
+        height: 40px;
+        width: 80px;
+    }
+    .mainbut {
+        display: none;
+    }
+    .buttonmainclass2 {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .mainbut2 {
+        display: flex;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        color: #FFFFFF;
+        background-color: #FF1DC0;
+        border: 1px solid #FF1DC0;
+        width: 193px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 45px;
+    }
+    .mainsecondblock {
+        display: flex;
+        flex-direction: column;
+    }
+    .main3block {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .text4block {
+        display: flex;
+        flex-direction: column;
+    }
+    .textblock {
+        width: 100%;
+    }
+    .m5mblockp {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 700;
+        color: #30FFCD;
+        font-size: 24px;
+    }
+    .m5mblockp2 {
+        padding-left: 7%;
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 11px;
+    }
+    .mobile5mainblock {
+        margin-left: 7%;
+    }
+    .main5block .mobile5mainblock {
+        display: flex;
+        flex-direction: column;
+    }
+    .m5mblockbut {
+        color: #30FFCD;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 11px;
+        width: 135px;
+        height: 40px;
+        border: 1px solid #30FFCD;
+        border-radius: 48px;
+        background-color: #382459;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .rf6block {
+        padding-bottom: 50px;
+    }
+    footer .footer-block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 60px;
+    }
+    .footer-block .f-b-1 {
+        flex-direction: row;
+    }
+    .boldheadtxt {
+        margin-left: 15%;
+        width: 80%;
+    }
+    .notboldmaintxt {
+        width: 90%;
+        margin-left: 15%;
+    }
+    .leftblock {
+        position: absolute;
+        right: 120px;
+    }
+    .h5text {
+        display: none;
+    }
+    .boldheadtxt {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+    }
+    .notboldmaintxt {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+        font-size: 11px;
+    }
+    .m5btext {
+        display: none;
+    }
+    .leftmblock img {
+        width: 50px;
+        height: 50px;
+    }
+    .rightmblock img {
+        width: 50px;
+        height: 50px;
+    }
+    .bigtext {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .littext {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .medtext {
+        font-size: 13px;
+        font-weight: 600;
+        border-bottom: yellow;
+    }
+    .h2btext {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .text1p {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .text2p {
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .text1m3 {
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .text2m3 {
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .text3m3 {
+        font-size: 9px;
+        font-weight: 500;
+    }
+    .m4bdtext {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .texthead {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .textmain {
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .m7bp1 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .m7bp2 {
+        font-weight: 500;
+        font-size: 11px;
+    }
+    .m7bpbut {
+        font-size: 15px;
+        font-weight: 600;
+    }
     .mainblock {
         flex-direction: column;
+    }
+    .selectitem {
+        padding: 20px 25px;
+        background-color: transparent;
+        color: #30FFCD;
+        border-color: #30FFCD;
+        border-width: 2px;
+        font-weight: bold;
     }
 }
